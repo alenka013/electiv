@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'registration/css/login.css' %}">
+</head>
+<body>
+  <div class="imgcontainer">
+    <img src="{% static 'registration/img/logo.png' %}" alt="Avatar" class="avatar">
+  </div>
+      {% if username %}
+      Здравствуйте {{ username }}
+      {% endif %}
+  <form action="{% url 'check_login_password' %}" method="post">
+      {% csrf_token %}
+      <div class="container">
+          <label for="login"><b>Логин</b></label>
+          <input type="text" placeholder="Enter Username" name="login" id="login" required>
+          <label for="password"><b>Логин</b></label>
+          <input type="text" placeholder="Enter Username" name="password" id="password" required>
+          {% if login_error %}
+          <label class="error">{{ login_error }}</label>
+          {% endif %}
+          <input type="submit" value="Войти">
+      </div>
+    </form>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Запомнить меня
+    </label>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <a href="{% url 'login' %}"><button type="button" class="cancelbtn">Назад</button></a>
+  </div>
+</body>
+</html>
