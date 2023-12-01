@@ -6,6 +6,7 @@ def login(request):
     #return render(request, 'registration/test.html')
     args = {}
     args.update(csrf(request))
+    args['username'] = auth.get_user(request).username
     return render(request, 'registration/login.html', args)
 
 def test(request):
