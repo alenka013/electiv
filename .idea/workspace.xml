@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd90857c-32a1-4e55-be2f-82cfe025426e" name="Changes" comment="">
+    <list default="true" id="bd90857c-32a1-4e55-be2f-82cfe025426e" name="Changes" comment="NEW">
+      <change beforePath="$PROJECT_DIR$/.idea/elective.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/elective.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elective/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/elective/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registration/templates/registration/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration/templates/registration/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registration/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +60,8 @@
       <recent name="C:\Users\Данил\Desktop\Бойков\Project\elective\registration\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\elective\registration\static\registration\css" />
+      <recent name="C:\elective\registration\templates\registration" />
       <recent name="C:\Users\Данил\Desktop\Бойков\Project\elective\templates" />
     </key>
   </component>
@@ -101,8 +109,22 @@
       <workItem from="1701372177054" duration="13000" />
       <workItem from="1701372215459" duration="3256000" />
       <workItem from="1701441346056" duration="2293000" />
-      <workItem from="1701457352627" duration="657000" />
+      <workItem from="1701457352627" duration="1271000" />
+      <workItem from="1701603255308" duration="11945000" />
+      <workItem from="1701634096501" duration="830000" />
+      <workItem from="1701637038076" duration="65000" />
+      <workItem from="1701637112593" duration="5329000" />
+      <workItem from="1701674929178" duration="2430000" />
+      <workItem from="1701678527170" duration="864000" />
     </task>
+    <task id="LOCAL-00001" summary="NEW">
+      <created>1701458772757</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701458772757</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,5 +140,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="NEW" />
+    <option name="LAST_COMMIT_MESSAGE" value="NEW" />
   </component>
 </project>

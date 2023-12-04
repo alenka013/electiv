@@ -5,7 +5,28 @@
     <title>Title</title>
 </head>
 <body>
-    Здравствуйте {{ username }}, {{ id }}
+    Здравствуйте {{ username }}, {{ id }} {{ groups_id }}
+    {% if groups_id %}
+      Здравствуйте {{ groups_id }}
+    {% endif %}
+    <br>
+    {% for row in groups_id %}
+        {% if row.0 == 1 %}
+            Вы {{ row.0 }} {{ row.1 }}
+            <div class="container" style="background-color:#f1f1f1">
+                <a href="{% url 'all_elective' %}"><button type="button" class="cancelbtn">Элективы</button></a>
+            </div>
+            <br>
+        {% endif %}
+        {% if row.0 == 2 %}
+            Уважаемый {{ row.0 }} {{ row.1 }}
+            <br>
+        {% endif %}
+        {% if row.0 == 3 %}
+            Проверяющий {{ row.0 }} {{ row.1 }}
+            <br>
+        {% endif %}
+    {% endfor %}
     <div class="container" style="background-color:#f1f1f1">
         <a href="{% url 'login' %}"><button type="button" class="cancelbtn">Назад</button></a>
     </div>

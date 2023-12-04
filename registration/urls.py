@@ -14,4 +14,5 @@ urlpatterns = [
     path('login', views.login, name='login'),
     path('test', views.test, name='test'),
     path('check_login_password', views.check_login_password, name='check_login_password'),
+    path('all_elective', views.all_elective, name='all_elective'),
 ]
